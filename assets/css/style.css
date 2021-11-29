@@ -1,4 +1,17 @@
 /*Estilo index.html*/
+body {
+    background: url(/assets/img/back.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #2A1673;
+}
+
+h2 {
+    color: #2A1673;
+}
+
 .center {
     text-align: center;
 }
@@ -22,11 +35,11 @@
 }
 
 #menu li a:hover {
-    color: blueviolet;
+    color: #2A1673;
 }
 
 .p-30 {
-    padding: 30px;
+    padding: 10px;
 }
 
 .br-50 {
@@ -50,4 +63,9 @@
 /*Estilo contato.html*/
 .ml-50 {
     margin-left: 50px;
+}
+
+.pd {
+    padding: 0px;
+    margin-top: 0px;
 }
